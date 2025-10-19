@@ -1,4 +1,16 @@
-__pycache__/
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-.DS_Store
-data/*.csv    # if you don't want raw data tracked; otherwise remove this line
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# Data files (if large)
+data/
